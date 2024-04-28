@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a69f9f;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff80;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0000004d;
+  margin-top: 105px;
+}
+
+.form-container {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-container h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  margin-bottom: 10px;
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#weather-display {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+#weather-info {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+#login,
+#register {
+  cursor: pointer;
+  color: #0056b3;
+
+  &:hover {
+    text-decoration: underline;
+    color: #0057b383;
+  }
+}
+
+#nav {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+#logout {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+  align-items: center;
+  &:hover {
+    text-decoration: underline;
+    color: #0057b383;
+  }
+}
+
+#logout img {
+  width: 30px;
+}
+
+#user {
+  font-weight: 800;
+  font-size: larger;
+  font-style: italic;
+  color: #0056b3;
+}
